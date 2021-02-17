@@ -1,0 +1,102 @@
+ *{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+
+/* für mobile devices */
+
+.weatherbox{
+    background-color: #ED4420;
+    height:7vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:2vh 2vw;
+    padding:10vh 10vw ;
+    justify-content: center;
+}
+ 
+ .title{
+    color:white;
+    font-weight: 300;
+    font-size:3em;
+}
+
+.weatherinput{
+    height:4vh;
+    width:20vh;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right:1vw;
+    margin-top:1vh;
+    font-size:1em;
+ 
+}
+
+.weathersubmit{
+    background-color:#3F8B2C;
+    color:white;
+    font-weight:300;
+    height:3vh;
+    width:8vw;
+    font-size:1em;
+    border:1px #3F8B2C solid;
+    border-radius: 10px;
+} 
+
+
+
+/* für desktop */
+/* media queries rein machen bei 500px width */
+@media screen and (min-width: 500px) {
+ 
+    *{
+        box-sizing: border-box;
+        margin:0px;
+        padding:0px;
+    
+    }
+    
+    
+.weatherbox{
+    background-color: #ED4420;
+    height:7vh;
+    padding:10vh 10vw;
+    margin:2vh 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.title{
+    color:white;
+    font-weight: 300;
+    font-size:3em;
+}
+
+.weatherinput{
+    height:8vh;
+    width:20vh;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right:1vw;
+    font-size:2em;
+
+}
+
+.weathersubmit{
+    background-color:#3F8B2C;
+    color:white;
+    font-weight:300;
+    height:6vh;
+    width:8vw;
+    font-size:2em;
+    border:1px #3F8B2C solid;
+    border-radius: 10px;
+
+}
+
+}
