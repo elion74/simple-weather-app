@@ -61,7 +61,7 @@ return(
 
     <div className = {mystyles.weatherbox}> 
 
-        <h1 className = {mystyles.title}>Wetter:</h1>  
+        <h1 className = {mystyles.title}>Weather:</h1>  
 
         <form onSubmit = { (event) => submithandler(event)}>
 
