@@ -1,4 +1,4 @@
-This weather app is using the https://openweathermap.org/ API to get the current weather information. To use this app you will need to create an account and get an API key. Once you have done this you can just include the key into the .env file. After installing the dependencies using npm install you can use the simple-weather-app! 
+This weather app is using the https://openweathermap.org/ API to get the current weather information. To use this app you will need to create an account and get an API key. Once you have done this you can just include the key in the .env file. After installing the dependencies using npm install you can use the simple-weather-app! 
 
 ## Available Scripts
 
